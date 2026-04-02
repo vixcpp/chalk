@@ -1,0 +1,10 @@
+function(chalk_add_example target file)
+  add_executable(${target} ${file})
+  target_link_libraries(${target} PRIVATE chalk::chalk)
+endfunction()
+
+chalk_add_example(chalk_example_basic_colors 01_basic_colors.cpp)
+chalk_add_example(chalk_example_chaining 02_chaining.cpp)
+chalk_add_example(chalk_example_backgrounds 03_backgrounds.cpp)
+chalk_add_example(chalk_example_rgb_and_hex 04_rgb_and_hex.cpp)
+chalk_add_example(chalk_example_strip_ansi 05_strip_ansi.cpp)

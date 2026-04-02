@@ -1,0 +1,25 @@
+{
+  "name": "chalk",
+  "namespace": "vix",
+  "version": "0.1.0",
+  "type": "header-only",
+  "include": "include/vix",
+  "license": "MIT",
+  "description": "Terminal string styling for C++",
+  "keywords": [
+    "cpp",
+    "terminal",
+    "ansi",
+    "colors",
+    "chalk",
+    "header-only",
+    "vix"
+  ],
+  "repository": "https://github.com/vixcpp/chalk",
+  "authors": [
+    {
+      "name": "Gaspard Kirira",
+      "github": "Gaspardkirira"
+    }
+  ]
+}
